@@ -20,11 +20,21 @@
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
-        id object = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-        self.Movies = object[@"movies"];
-        [self.tableView reloadData];
-        NSLog(@"%@", object);
+        if (response !=nil) {
+            
+            id object = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+            self.Movies = object[@"movies"];
+            [self.tableView reloadData];
+            NSLog(@"%@", object);
+            
+        }
+        else {
+            self.title = @"No Fucking data";
+            NSLog(@"No data");
+        }
     }];
+    
+    
              
     
     // Uncomment the following line to preserve selection between presentations.
@@ -42,13 +52,11 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return self.Movies.count;
 }
@@ -71,6 +79,15 @@
     [cell.posterView setImageWithURL:[NSURL URLWithString:posterUrlString]];
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"hello");
+//    self.currentTableRow=indexPath.row;
+//    [self performSegueWithIdentifier:@"showdetail" sender:self];
+//        [self performSegueWithIdentifier:@"mike" sender:self];
+        [self performSegueWithIdentifier:@"mike" sender:self];
+
 }
 
 
@@ -108,14 +125,20 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+//In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue000:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    NSDictionary *movie = self.Movies[self.currentTableRow];
+    NSLog(@"hello #2");
+    if ( [[segue identifier] isEqualToString:@"mike"]) {
+        detailViewController *controller = (detailViewController *)segue.destinationViewController;
+        controller.moviedetail = movie;
+    }
 }
-*/
+
 
 @end

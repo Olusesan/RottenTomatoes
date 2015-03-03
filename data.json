@@ -1,0 +1,1122 @@
+
+ {
+    "link_template" = "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?page_limit={results_per_page}&page={page_number}&country={country-code}";
+    links =     {
+        alternate = "http://www.rottentomatoes.com/movie/in_theaters";
+        next = "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?page_limit=16&country=us&page=2";
+        self = "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?page_limit=16&country=us&page=1";
+    };
+    movies =     (
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   "SpongeBob SquarePants/Gary/Waffle/Agreeable Mob Member"
+                                                                                   );
+                                                 id = 162663804;
+                                                 name = "Tom Kenny";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Patrick Star/Male Fish/Eager Customer"
+                                                                                   );
+                                                 id = 341817707;
+                                                 name = "Bill Fagerbakke";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Seagull
+                                                                                   );
+                                                 id = 162656863;
+                                                 name = "Rob Paulsen";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Squidward Tentacles/Doctor/Angry Mob Member #2/Doughnut/Squi"
+                                                                                   );
+                                                 id = 162663807;
+                                                 name = "Rodger Bumpass";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Mr. Krabs"
+                                                                                   );
+                                                 id = 162663805;
+                                                 name = "Clancy Brown";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 2279373;
+                  };
+                  "critics_consensus" = "";
+                  id = 771361762;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/the_spongebob_movie_sponge_out_of_water/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771361762/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771361762/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771361762.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771361762/similar.json";
+                  };
+                  "mpaa_rating" = PG;
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/3m2svG9fa1-bZvMdiIwE_0jBKeU=/54x77/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189077_ori.jpg";
+                  original = "http://resizing.flixster.com/3m2svG9fa1-bZvMdiIwE_0jBKeU=/54x77/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189077_ori.jpg";
+                  profile = "http://resizing.flixster.com/3m2svG9fa1-bZvMdiIwE_0jBKeU=/54x77/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189077_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/3m2svG9fa1-bZvMdiIwE_0jBKeU=/54x77/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189077_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Upright;
+                  "audience_score" = 61;
+                  "critics_rating" = "Certified Fresh";
+                  "critics_score" = 75;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-02-06";
+                  };
+                  runtime = 100;
+                  synopsis = "SpongeBob SquarePants, the world's favorite sea dwelling invertebrate, comes ashore to our world for his most super-heroic adventure yet.(C) Paramount Pictures";
+                  title = "The SpongeBob Movie: Sponge Out of Water";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   Nicky
+                                                                                   );
+                                                 id = 162659361;
+                                                 name = "Will Smith";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Garriga
+                                                                                   );
+                                                 id = 162676528;
+                                                 name = "Rodrigo Santoro";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Jess
+                                                                                   );
+                                                 id = 770873485;
+                                                 name = "Margot Robbie";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Farhad
+                                                                                   );
+                                                 id = 680228527;
+                                                 name = "Adrian Martinez";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Owens
+                                                                                   );
+                                                 id = 646801631;
+                                                 name = "Gerald McRaney";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 2381941;
+                  };
+                  "critics_consensus" = "";
+                  id = 771321013;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/focus_2014/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771321013/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771321013/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771321013.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771321013/similar.json";
+                  };
+                  "mpaa_rating" = R;
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/wmddoHTkzLKvzT6QuoTDeryHunA=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/92/11189221_ori.jpg";
+                  original = "http://resizing.flixster.com/wmddoHTkzLKvzT6QuoTDeryHunA=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/92/11189221_ori.jpg";
+                  profile = "http://resizing.flixster.com/wmddoHTkzLKvzT6QuoTDeryHunA=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/92/11189221_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/wmddoHTkzLKvzT6QuoTDeryHunA=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/92/11189221_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Upright;
+                  "audience_score" = 64;
+                  "critics_rating" = Rotten;
+                  "critics_score" = 55;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-02-27";
+                  };
+                  runtime = 105;
+                  synopsis = "A con artiist (Will Smith) takes on an inexperienced apprentice in this crime comedy from the filmmaking duo behind Crazy Stupid Love, Glenn Ficarra and John Requa. ~ Jeremy Wheeler, Rovi";
+                  title = Focus;
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   "Christian Grey"
+                                                                                   );
+                                                 id = 770836695;
+                                                 name = "Jamie Dornan";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Anastasia Steele"
+                                                                                   );
+                                                 id = 770878600;
+                                                 name = "Dakota Johnson";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Carla
+                                                                                   );
+                                                 id = 162924763;
+                                                 name = "Jennifer Ehle";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Elliot Grey"
+                                                                                   );
+                                                 id = 770791372;
+                                                 name = "Luke Grimes";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Dr. Grace Trevelyan Grey"
+                                                                                   );
+                                                 id = 162652892;
+                                                 name = "Marcia Gay Harden";
+                                                 }
+                                                 );
+                  "critics_consensus" = "";
+                  id = 771311953;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/fifty_shades_of_grey/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771311953/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771311953/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771311953.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771311953/similar.json";
+                  };
+                  "mpaa_rating" = R;
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/pSYdUa-c_wXv94Jzud5l_2sEmoM=/54x76/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/87/11178771_ori.jpg";
+                  original = "http://resizing.flixster.com/pSYdUa-c_wXv94Jzud5l_2sEmoM=/54x76/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/87/11178771_ori.jpg";
+                  profile = "http://resizing.flixster.com/pSYdUa-c_wXv94Jzud5l_2sEmoM=/54x76/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/87/11178771_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/pSYdUa-c_wXv94Jzud5l_2sEmoM=/54x76/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/87/11178771_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Spilled;
+                  "audience_score" = 48;
+                  "critics_rating" = Rotten;
+                  "critics_score" = 24;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-02-13";
+                  };
+                  runtime = 110;
+                  synopsis = "E.L. James' kinky best-seller gets the big screen treatment with this Universal Pictures/Focus Features co-production. The steamy tale details a masochistic relationship between a college student and a businessman, whose desires for extreme intimacy pen from secrets in his past. ~ Jeremy Wheeler, Rovi";
+                  title = "Fifty Shades of Grey";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   "Gary \"Eggsy\" Unwin"
+                                                                                   );
+                                                 id = 771413912;
+                                                 name = "Taron Egerton";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Harry Hart"
+                                                                                   );
+                                                 id = 162654659;
+                                                 name = "Colin Firth";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Professor Arnold"
+                                                                                   );
+                                                 id = 162665747;
+                                                 name = "Mark Hamill";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Richmond Valentine"
+                                                                                   );
+                                                 id = 162652156;
+                                                 name = "Samuel L. Jackson";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Lancelot
+                                                                                   );
+                                                 id = 162659479;
+                                                 name = "Jack Davenport";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 2802144;
+                  };
+                  "critics_consensus" = "";
+                  id = 771353298;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/kingsman_the_secret_service/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771353298/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771353298/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771353298.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771353298/similar.json";
+                  };
+                  "mpaa_rating" = R;
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/AnzzLpbjngMeECOABktuJ0iABI8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/95/11189501_ori.jpg";
+                  original = "http://resizing.flixster.com/AnzzLpbjngMeECOABktuJ0iABI8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/95/11189501_ori.jpg";
+                  profile = "http://resizing.flixster.com/AnzzLpbjngMeECOABktuJ0iABI8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/95/11189501_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/AnzzLpbjngMeECOABktuJ0iABI8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/95/11189501_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Upright;
+                  "audience_score" = 88;
+                  "critics_rating" = Fresh;
+                  "critics_score" = 74;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-02-13";
+                  };
+                  runtime = 128;
+                  synopsis = "Based upon the acclaimed comic book and directed by Matthew Vaughn (Kick Ass, X-Men First Class), Kingsman: The Secret Service tells the story of a super-secret spy organization that recruits an unrefined but promising street kid into the agency's ultra-competitive training program just as a global threat emerges from a twisted tech genius. (c) Fox";
+                  title = "Kingsman: The Secret Service";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   "Jim White"
+                                                                                   );
+                                                 id = 162662350;
+                                                 name = "Kevin Costner";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Cheryl White"
+                                                                                   );
+                                                 id = 162654542;
+                                                 name = "Maria Bello";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Julie White"
+                                                                                   );
+                                                 id = 771061556;
+                                                 name = "Morgan Saylor";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Lupe
+                                                                                   );
+                                                 id = 357424980;
+                                                 name = "Martha Higareda";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Victor Puentes"
+                                                                                   );
+                                                 id = 771612640;
+                                                 name = "Sergio Avelar";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 2097298;
+                  };
+                  "critics_consensus" = "";
+                  id = 771360014;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/mcfarland_usa/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771360014/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771360014/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771360014.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771360014/similar.json";
+                  };
+                  "mpaa_rating" = PG;
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/8sS3Y8GK78YWOnAxMQwk58lccIA=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/14/11181470_ori.jpg";
+                  original = "http://resizing.flixster.com/8sS3Y8GK78YWOnAxMQwk58lccIA=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/14/11181470_ori.jpg";
+                  profile = "http://resizing.flixster.com/8sS3Y8GK78YWOnAxMQwk58lccIA=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/14/11181470_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/8sS3Y8GK78YWOnAxMQwk58lccIA=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/14/11181470_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Upright;
+                  "audience_score" = 92;
+                  "critics_rating" = "Certified Fresh";
+                  "critics_score" = 78;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-02-20";
+                  };
+                  runtime = 129;
+                  synopsis = "From Disney comes MCFARLAND, the true against-all-odds story of the 1987 McFarland high school cross country team in an economically challenged community. (C) Disney";
+                  title = "McFarland USA";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   Nick
+                                                                                   );
+                                                 id = 770679920;
+                                                 name = "Craig Robinson";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Lou
+                                                                                   );
+                                                 id = 312208850;
+                                                 name = "Rob Corddry";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Jacob
+                                                                                   );
+                                                 id = 770790109;
+                                                 name = "Clark Duke";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Repairman
+                                                                                   );
+                                                 id = 162660294;
+                                                 name = "Chevy Chase";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Kelly
+                                                                                   );
+                                                 id = 770869109;
+                                                 name = "Collette Wolfe";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 2637294;
+                  };
+                  "critics_consensus" = "";
+                  id = 771369273;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/hot_tub_time_machine_2/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771369273/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771369273/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771369273.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771369273/similar.json";
+                  };
+                  "mpaa_rating" = R;
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/5n5a0XuOlLpDq8BPjHpS8nR0z5o=/52x81/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189088_ori.jpg";
+                  original = "http://resizing.flixster.com/5n5a0XuOlLpDq8BPjHpS8nR0z5o=/52x81/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189088_ori.jpg";
+                  profile = "http://resizing.flixster.com/5n5a0XuOlLpDq8BPjHpS8nR0z5o=/52x81/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189088_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/5n5a0XuOlLpDq8BPjHpS8nR0z5o=/52x81/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189088_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Spilled;
+                  "audience_score" = 40;
+                  "critics_rating" = Rotten;
+                  "critics_score" = 15;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-02-20";
+                  };
+                  runtime = 93;
+                  synopsis = "Hot Tub Time Machine director Steve Pink returns to the helm for this sequel set 10 years in the future, and starring Rob Corddry, Adam Scott, Clark Duke, and Craig Robinson. ~ Jason Buchanan, Rovi";
+                  title = "Hot Tub Time Machine 2";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   "Chris Kyle"
+                                                                                   );
+                                                 id = 351525448;
+                                                 name = "Bradley Cooper";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Taya
+                                                                                   );
+                                                 id = 335716430;
+                                                 name = "Sienna Miller";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Marc Lee"
+                                                                                   );
+                                                 id = 770791372;
+                                                 name = "Luke Grimes";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Goat-Winston"
+                                                                                   );
+                                                 id = 371353852;
+                                                 name = "Kyle Gallner";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Wayne Kyle"
+                                                                                   );
+                                                 id = 770768775;
+                                                 name = "Ben Reed";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 2179136;
+                  };
+                  "critics_consensus" = "";
+                  id = 771357000;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/american_sniper/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771357000/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771357000/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771357000.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771357000/similar.json";
+                  };
+                  "mpaa_rating" = R;
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/TR0lcN6oA3LV108hZRldUnLWG9I=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/08/11180834_ori.jpg";
+                  original = "http://resizing.flixster.com/TR0lcN6oA3LV108hZRldUnLWG9I=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/08/11180834_ori.jpg";
+                  profile = "http://resizing.flixster.com/TR0lcN6oA3LV108hZRldUnLWG9I=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/08/11180834_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/TR0lcN6oA3LV108hZRldUnLWG9I=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/08/11180834_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Upright;
+                  "audience_score" = 86;
+                  "critics_rating" = "Certified Fresh";
+                  "critics_score" = 72;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-01-16";
+                  };
+                  runtime = 134;
+                  synopsis = "From director Clint Eastwood comes \"American Sniper,\" starring Bradley Cooper as Chris Kyle, the most lethal sniper in U.S. military history. But there was much more to this true American hero than his skill with a rifle. U.S. Navy SEAL sniper Chris Kyle is sent to Iraq with only one mission: to protect his brothers-in-arms. His pinpoint accuracy saves countless lives on the battlefield and, as stories of his courageous exploits spread, he earns the nickname \"Legend.\" However, his reputation is also growing behind enemy lines, putting a price on his head and making him a prime target of insurgents. Despite the danger, as well as the toll on his family at home, Chris serves through four harrowing tours of duty in Iraq, becoming emblematic of the SEAL creed to \"leave no man behind.\" But upon returning home, Chris finds that it is the war he can't leave behind. (C) Warner Bros";
+                  title = "American Sniper";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   Zoe
+                                                                                   );
+                                                 id = 326299741;
+                                                 name = "Olivia Wilde";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Frank
+                                                                                   );
+                                                 id = 388618670;
+                                                 name = "Mark Duplass";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Niko
+                                                                                   );
+                                                 id = 770826850;
+                                                 name = "Donald Glover";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Clay
+                                                                                   );
+                                                 id = 528342687;
+                                                 name = "Evan Peters";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Eva
+                                                                                   );
+                                                 id = 395113239;
+                                                 name = "Sarah Bolger";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 1612590;
+                  };
+                  "critics_consensus" = "";
+                  id = 771371933;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/the_lazarus_effect/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771371933/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771371933/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771371933.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771371933/similar.json";
+                  };
+                  "mpaa_rating" = "PG-13";
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/BsT5tsvza0Db0sHHVmYNEca1nRQ=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/93/11189376_ori.jpg";
+                  original = "http://resizing.flixster.com/BsT5tsvza0Db0sHHVmYNEca1nRQ=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/93/11189376_ori.jpg";
+                  profile = "http://resizing.flixster.com/BsT5tsvza0Db0sHHVmYNEca1nRQ=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/93/11189376_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/BsT5tsvza0Db0sHHVmYNEca1nRQ=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/93/11189376_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Spilled;
+                  "audience_score" = 31;
+                  "critics_rating" = Rotten;
+                  "critics_score" = 13;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-02-27";
+                  };
+                  runtime = 83;
+                  synopsis = "From masters of horror Blumhouse Productions- producer of THE PURGE, INSIDIOUS and SINISTER franchises- THE LAZARUS EFFECT follows a group of researchers led by Frank (Mark Duplass) and his fiancee Zoe (Olivia Wilde,) who've achieved the unimaginable- bringing the dead back to life. After a successful, yet unsanctioned, trial on a newly deceased animal, the team is ready to unveil their breakthrough to the world. When the dean of their university learns of their underground experiments, their project is unexpectedly shut down and their materials confiscated. (C) Relativity";
+                  title = "The Lazarus Effect";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   Bianca
+                                                                                   );
+                                                 id = 162654346;
+                                                 name = "Mae Whitman";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Wesley
+                                                                                   );
+                                                 id = 770683393;
+                                                 name = "Robbie Amell";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Madison
+                                                                                   );
+                                                 id = 770832921;
+                                                 name = "Bella Thorne";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Casey
+                                                                                   );
+                                                 id = 771462751;
+                                                 name = "Bianca A. Santos";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Toby
+                                                                                   );
+                                                 id = 771069031;
+                                                 name = "Nick Eversman";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 1666801;
+                  };
+                  "critics_consensus" = "";
+                  id = 771381399;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/the_duff/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771381399/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771381399/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771381399.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771381399/similar.json";
+                  };
+                  "mpaa_rating" = "PG-13";
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/drC3PX7qqHSbV_yqkbo_e77ql2M=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/97/11189724_ori.jpg";
+                  original = "http://resizing.flixster.com/drC3PX7qqHSbV_yqkbo_e77ql2M=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/97/11189724_ori.jpg";
+                  profile = "http://resizing.flixster.com/drC3PX7qqHSbV_yqkbo_e77ql2M=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/97/11189724_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/drC3PX7qqHSbV_yqkbo_e77ql2M=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/97/11189724_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Upright;
+                  "audience_score" = 77;
+                  "critics_rating" = Fresh;
+                  "critics_score" = 64;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-02-20";
+                  };
+                  runtime = 101;
+                  synopsis = "Bianca (Mae Whitman) is a content high school senior whose world is shattered when she learns the student body knows her as 'The DUFF' (Designated Ugly Fat Friend) to her prettier, more popular friends (Skyler Samuels & Bianca Santos). Now, despite the words of caution from her favorite teacher (Ken Jeong), she puts aside the potential distraction of her crush, Toby (Nick Eversman), and enlists Wesley (Robbie Amell), a slick but charming jock, to help reinvent herself. To save her senior year from turning into a total disaster, Bianca must find the confidence to overthrow the school's ruthless label maker Madison (Bella Thorne) and remind everyone that no matter what people look or act like, we are all someone's DUFF. (C) CBS Films";
+                  title = "The DUFF";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   "Jupiter Jones"
+                                                                                   );
+                                                 id = 364629418;
+                                                 name = "Mila Kunis";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Caine
+                                                                                   );
+                                                 id = 162661835;
+                                                 name = "Channing Tatum";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Stinger Apini"
+                                                                                   );
+                                                 id = 162652874;
+                                                 name = "Sean Bean";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Balem Abrasax"
+                                                                                   );
+                                                 id = 358068995;
+                                                 name = "Eddie Redmayne";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Titus Abrasax"
+                                                                                   );
+                                                 id = 771375144;
+                                                 name = "Douglas Booth";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 1617661;
+                  };
+                  "critics_consensus" = "";
+                  id = 771352387;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/jupiter_ascending_2014/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771352387/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771352387/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771352387.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771352387/similar.json";
+                  };
+                  "mpaa_rating" = "PG-13";
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/GBZ88lhgE8Dl-Rb25TAy_TJDOAk=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/71/11177161_ori.jpg";
+                  original = "http://resizing.flixster.com/GBZ88lhgE8Dl-Rb25TAy_TJDOAk=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/71/11177161_ori.jpg";
+                  profile = "http://resizing.flixster.com/GBZ88lhgE8Dl-Rb25TAy_TJDOAk=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/71/11177161_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/GBZ88lhgE8Dl-Rb25TAy_TJDOAk=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/71/11177161_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Spilled;
+                  "audience_score" = 47;
+                  "critics_rating" = Rotten;
+                  "critics_score" = 24;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-02-06";
+                  };
+                  runtime = 125;
+                  synopsis = "From the streets of Chicago to the far-flung galaxies whirling through space, \"Jupiter Ascending\" tells the story of Jupiter Jones (Mila Kunis), who was born under a night sky, with signs predicting she was destined for great things. Now grown, Jupiter dreams of the stars but wakes up to the cold reality of a job cleaning other people's houses and an endless run of bad breaks. Only when Caine (Channing Tatum), a genetically engineered ex-military hunter, arrives on Earth to track her down does Jupiter begin to glimpse the fate that has been waiting for her all along-her genetic signature marks her as next in line for an extraordinary inheritance that could alter the balance of the cosmos. (C) Warner Bros";
+                  title = "Jupiter Ascending";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   "Dr. Alice Howland"
+                                                                                   );
+                                                 id = 162654248;
+                                                 name = "Julianne Moore";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Lydia Howland"
+                                                                                   );
+                                                 id = 162655167;
+                                                 name = "Kristen Stewart";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Anna Howland-Jones"
+                                                                                   );
+                                                 id = 162655190;
+                                                 name = "Kate Bosworth";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Dr. John Howland"
+                                                                                   );
+                                                 id = 162656441;
+                                                 name = "Alec Baldwin";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Tom Howland"
+                                                                                   );
+                                                 id = 770670111;
+                                                 name = "Hunter Parrish";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 3316960;
+                  };
+                  "critics_consensus" = "";
+                  id = 771387088;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/still_alice/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771387088/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771387088/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771387088.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771387088/similar.json";
+                  };
+                  "mpaa_rating" = "PG-13";
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/Lx8WKK7CBwLV5OAKQ7kx0wr_dz4=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/14/11181479_ori.jpg";
+                  original = "http://resizing.flixster.com/Lx8WKK7CBwLV5OAKQ7kx0wr_dz4=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/14/11181479_ori.jpg";
+                  profile = "http://resizing.flixster.com/Lx8WKK7CBwLV5OAKQ7kx0wr_dz4=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/14/11181479_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/Lx8WKK7CBwLV5OAKQ7kx0wr_dz4=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/14/11181479_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Upright;
+                  "audience_score" = 86;
+                  "critics_rating" = "Certified Fresh";
+                  "critics_score" = 91;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-01-16";
+                  };
+                  runtime = 99;
+                  synopsis = "Alice Howland, happily married with three grown children, is a renowned linguistics professor who starts to forget words. When she receives a diagnosis of Early-Onset Alzheimer's Disease, Alice and her family find their bonds thoroughly tested. Her struggle to stay connected to who she once was is frightening, heartbreaking, and inspiring.(C) Sony Classics";
+                  title = "Still Alice";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 id = 162653242;
+                                                 name = "Hugh Bonneville";
+                                                 },
+                                                 {
+                                                 id = 588111244;
+                                                 name = "Sally Hawkins";
+                                                 },
+                                                 {
+                                                 id = 162653369;
+                                                 name = "Jim Broadbent";
+                                                 },
+                                                 {
+                                                 id = 162652279;
+                                                 name = "Nicole Kidman";
+                                                 },
+                                                 {
+                                                 id = 364605105;
+                                                 name = "Ben Whishaw";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 1109624;
+                  };
+                  "critics_consensus" = "";
+                  id = 771366608;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/paddington_2014/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771366608/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771366608/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771366608.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771366608/similar.json";
+                  };
+                  "mpaa_rating" = PG;
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/LvrCSRaAj02mhqRcZxKu5xAhRj8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189067_ori.jpg";
+                  original = "http://resizing.flixster.com/LvrCSRaAj02mhqRcZxKu5xAhRj8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189067_ori.jpg";
+                  profile = "http://resizing.flixster.com/LvrCSRaAj02mhqRcZxKu5xAhRj8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189067_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/LvrCSRaAj02mhqRcZxKu5xAhRj8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/90/11189067_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Upright;
+                  "audience_score" = 85;
+                  "critics_rating" = "Certified Fresh";
+                  "critics_score" = 98;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-01-16";
+                  };
+                  runtime = 95;
+                  synopsis = "From the beloved novels by Michael Bond and producer David Heyman (HARRY POTTER), PADDINGTON tells the story of the comic misadventures of a young Peruvian bear (voiced by Firth) who travels to the city in search of a home. Finding himself lost and alone, he begins to realize that city life is not all he had imagined - until he meets the kindly Brown family who read the label around his neck that says \"Please look after this bear. Thank you,\" and offer him a temporary haven. It looks as though his luck has changed until this rarest of bears catches the eye of a museum taxidermist. (c) Weinstein";
+                  title = Paddington;
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   "Elliott Anderson"
+                                                                                   );
+                                                 id = 162662350;
+                                                 name = "Kevin Costner";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Rowena Jeffers"
+                                                                                   );
+                                                 id = 770689255;
+                                                 name = "Octavia Spencer";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Eloise Anderson"
+                                                                                   );
+                                                 id = 771619548;
+                                                 name = "Jillian Estell";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Rick Reynolds"
+                                                                                   );
+                                                 id = 770788543;
+                                                 name = "Bill Burr";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Carol
+                                                                                   );
+                                                 id = 162924763;
+                                                 name = "Jennifer Ehle";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 2883434;
+                  };
+                  "critics_consensus" = "";
+                  id = 771383833;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/black_or_white/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771383833/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771383833/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771383833.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771383833/similar.json";
+                  };
+                  "mpaa_rating" = "PG-13";
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/sYRa7up_V-2asXCAf7vU0PySEto=/54x77/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/88/11188845_ori.jpg";
+                  original = "http://resizing.flixster.com/sYRa7up_V-2asXCAf7vU0PySEto=/54x77/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/88/11188845_ori.jpg";
+                  profile = "http://resizing.flixster.com/sYRa7up_V-2asXCAf7vU0PySEto=/54x77/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/88/11188845_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/sYRa7up_V-2asXCAf7vU0PySEto=/54x77/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/88/11188845_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Upright;
+                  "audience_score" = 72;
+                  "critics_rating" = Rotten;
+                  "critics_score" = 37;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-01-30";
+                  };
+                  runtime = 121;
+                  synopsis = "BLACK OR WHITE is the story of a grandfather (Academy Award (R) winner Kevin Costner) who is suddenly left to care for his beloved granddaughter. When her paternal grandmother (Academy Award (R) winner Octavia Spencer) seeks custody with the help of her brother (Anthony Mackie), the little girl is torn between two families who love her deeply. With the best intentions at heart, both families fight for what they feel is right and are soon forced to confront their true feelings about race, forgiveness, and understanding. Anchored by an all-star cast and based on real events, the movie is a look at two seemingly different worlds, in which nothing is as simple as black or white. (C) Relativity";
+                  title = "Black or White";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   "Jimmy Callahan"
+                                                                                   );
+                                                 id = 770671077;
+                                                 name = "Kevin Hart";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Doug Harris"
+                                                                                   );
+                                                 id = 770683794;
+                                                 name = "Josh Gad";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Reggie/Drysdale"
+                                                                                   );
+                                                 id = 770671599;
+                                                 name = "Affion Crockett";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Gretchen Palmer"
+                                                                                   );
+                                                 id = 771514334;
+                                                 name = "Kaley Cuoco-Sweeting";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Lurch/Garvey"
+                                                                                   );
+                                                 id = 309887152;
+                                                 name = "Jorge Garcia";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 0884732;
+                  };
+                  "critics_consensus" = "";
+                  id = 771373844;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/the_wedding_ringer/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771373844/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771373844/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771373844.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771373844/similar.json";
+                  };
+                  "mpaa_rating" = R;
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/0J5aGjB794C7WKBgHSReaTeK6no=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/16/11181602_ori.jpg";
+                  original = "http://resizing.flixster.com/0J5aGjB794C7WKBgHSReaTeK6no=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/16/11181602_ori.jpg";
+                  profile = "http://resizing.flixster.com/0J5aGjB794C7WKBgHSReaTeK6no=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/16/11181602_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/0J5aGjB794C7WKBgHSReaTeK6no=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/16/11181602_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Upright;
+                  "audience_score" = 74;
+                  "critics_rating" = Rotten;
+                  "critics_score" = 29;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-01-16";
+                  };
+                  runtime = 101;
+                  synopsis = "Doug Harris (Josh Gad) is a loveable but socially awkward groom-to-be with a problem: he has no best man. With less than two weeks to go until he marries the girl of his dreams (Kaley Cuoco-Sweeting), Doug is referred to Jimmy Callahan (Kevin Hart), owner and CEO of Best Man, Inc., a company that provides flattering best men for socially challenged guys in need. What ensues is a hilarious wedding charade as they try to pull off the big con, and an unexpected budding bromance between Doug and his fake best man Jimmy. (c) Sony";
+                  title = "The Wedding Ringer";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   "Maria Laura 'Mala' Medina"
+                                                                                   );
+                                                 id = 770760448;
+                                                 name = "Aislinn Derbez";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Santiago
+                                                                                   );
+                                                 id = 770673757;
+                                                 name = "Mauricio Ochmann";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Kika
+                                                                                   );
+                                                 id = 771056475;
+                                                 name = "Catherine Papile";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Kika
+                                                                                   );
+                                                 id = 771634086;
+                                                 name = "Papile Aurora";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   Pablo
+                                                                                   );
+                                                 id = 770777732;
+                                                 name = "Luis Arrieta";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 4357170;
+                  };
+                  id = 771408555;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/a_la_mala/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771408555/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771408555/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771408555.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771408555/similar.json";
+                  };
+                  "mpaa_rating" = "PG-13";
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/2eLdZgjyXgEXJ3stIzvMxXqC0U8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/96/11189645_ori.jpg";
+                  original = "http://resizing.flixster.com/2eLdZgjyXgEXJ3stIzvMxXqC0U8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/96/11189645_ori.jpg";
+                  profile = "http://resizing.flixster.com/2eLdZgjyXgEXJ3stIzvMxXqC0U8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/96/11189645_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/2eLdZgjyXgEXJ3stIzvMxXqC0U8=/54x80/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/96/11189645_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Upright;
+                  "audience_score" = 94;
+                  "critics_score" = "-1";
+                  };
+                  "release_dates" =             {
+                  theater = "2015-02-27";
+                  };
+                  runtime = 99;
+                  synopsis = "When aspiring actress Maria Laura's best friend begs her to flirt with her boyfriend to test his fidelity, Maria finds a lucrative new career. After being hired by women across the city, Maria is given a gig that should be business as usual until she ends up falling head over heels for her latest mark. (C) Pantelion";
+                  title = "A La Mala";
+                  year = 2015;
+                  },
+                  {
+                  "abridged_cast" =             (
+                                                 {
+                                                 characters =                     (
+                                                                                   "Master Gregory"
+                                                                                   );
+                                                 id = 162655890;
+                                                 name = "Jeff Bridges";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Mother Malkin"
+                                                                                   );
+                                                 id = 162654248;
+                                                 name = "Julianne Moore";
+                                                 },
+                                                 {
+                                                 characters =                     (
+                                                                                   "Tom Ward"
+                                                                                   );
+                                                 id = 560040614;
+                                                 name = "Ben Barnes";
+                                                 },
+                                                 {
+                                                 id = 771083890;
+                                                 name = "Alicia Vikander";
+                                                 },
+                                                 {
+                                                 id = 771384803;
+                                                 name = "Kit Harington";
+                                                 }
+                                                 );
+                  "alternate_ids" =             {
+                  imdb = 1121096;
+                  };
+                  "critics_consensus" = "";
+                  id = 771247934;
+                  links =             {
+                  alternate = "http://www.rottentomatoes.com/m/seventh_son/";
+                  cast = "http://api.rottentomatoes.com/api/public/v1.0/movies/771247934/cast.json";
+                  reviews = "http://api.rottentomatoes.com/api/public/v1.0/movies/771247934/reviews.json";
+                  self = "http://api.rottentomatoes.com/api/public/v1.0/movies/771247934.json";
+                  similar = "http://api.rottentomatoes.com/api/public/v1.0/movies/771247934/similar.json";
+                  };
+                  "mpaa_rating" = "PG-13";
+                  posters =             {
+                  detailed = "http://resizing.flixster.com/w1S22O-7G8kg8fey9AM2vMfQwyc=/51x81/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/03/11180365_ori.jpg";
+                  original = "http://resizing.flixster.com/w1S22O-7G8kg8fey9AM2vMfQwyc=/51x81/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/03/11180365_ori.jpg";
+                  profile = "http://resizing.flixster.com/w1S22O-7G8kg8fey9AM2vMfQwyc=/51x81/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/03/11180365_ori.jpg";
+                  thumbnail = "http://resizing.flixster.com/w1S22O-7G8kg8fey9AM2vMfQwyc=/51x81/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/03/11180365_ori.jpg";
+                  };
+                  ratings =             {
+                  "audience_rating" = Spilled;
+                  "audience_score" = 42;
+                  "critics_rating" = Rotten;
+                  "critics_score" = 11;
+                  };
+                  "release_dates" =             {
+                  theater = "2015-02-06";
+                  };
+                  runtime = 120;
+                  synopsis = "In a time long past, an evil is about to be unleashed that will reignite the war between the forces of the supernatural and humankind once more. Master Gregory (Jeff Bridges) is a knight who had imprisoned the malevolently powerful witch, Mother Malkin (Julianne Moore), centuries ago. But now she has escaped and is seeking vengeance. Summoning her followers of every incarnation, Mother Malkin is preparing to unleash her terrible wrath on an unsuspecting world. Only one thing stands in her way: Master Gregory. In a deadly reunion, Gregory comes face to face with the evil he always feared would someday return. He has only until the next full moon to do what usually takes years: train his new apprentice, Tom Ward (Ben Barnes) to fight a dark magic unlike any other. Man's only hope lies in the seventh son of a seventh son. (c) WB";
+                  title = "Seventh Son";
+                  year = 2015;
+                  }
+                  );
+    total = 110;
+}

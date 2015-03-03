@@ -10,9 +10,11 @@
 #import "AFNetworking.h"
 #import "UIKit+AFNetworking.h"
 #import "movieCell.h"
+#import "detailViewController.h"
 
 @interface tableview : UITableViewController
 
 @property (nonatomic, strong) NSArray *Movies;
+@property (assign) NSInteger currentTableRow;
 
 @end

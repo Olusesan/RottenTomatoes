@@ -32,6 +32,9 @@
 		BD87B14B1A95037A00678A6F /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BD87B1421A95037A00678A6F /* UIRefreshControl+AFNetworking.m */; };
 		BD87B14C1A95037A00678A6F /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BD87B1441A95037A00678A6F /* UIWebView+AFNetworking.m */; };
 		BD87B1581A95451100678A6F /* movieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD87B1571A95451100678A6F /* movieCell.m */; };
+		BD87B15E1AA53BA800678A6F /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD87B15D1AA53BA800678A6F /* detailViewController.m */; };
+		BD87B1601AA552B300678A6F /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = BD87B15F1AA552B300678A6F /* data.json */; };
+		BD87B1611AA552B300678A6F /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = BD87B15F1AA552B300678A6F /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +99,9 @@
 		BD87B1441A95037A00678A6F /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		BD87B1561A95451100678A6F /* movieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = movieCell.h; path = ../movieCell.h; sourceTree = "<group>"; };
 		BD87B1571A95451100678A6F /* movieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = movieCell.m; path = ../movieCell.m; sourceTree = "<group>"; };
+		BD87B15C1AA53BA800678A6F /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		BD87B15D1AA53BA800678A6F /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		BD87B15F1AA552B300678A6F /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,7 @@
 		BD87B0E11A94FFE600678A6F = {
 			isa = PBXGroup;
 			children = (
+				BD87B15F1AA552B300678A6F /* data.json */,
 				BD87B0EC1A94FFE600678A6F /* RottenTomatoes */,
 				BD87B1061A94FFE600678A6F /* RottenTomatoesTests */,
 				BD87B0EB1A94FFE600678A6F /* Products */,
@@ -143,6 +150,8 @@
 				BD87B0F21A94FFE600678A6F /* AppDelegate.m */,
 				BD87B1131A95006100678A6F /* tableview.h */,
 				BD87B1141A95006100678A6F /* tableview.m */,
+				BD87B15C1AA53BA800678A6F /* detailViewController.h */,
+				BD87B15D1AA53BA800678A6F /* detailViewController.m */,
 				BD87B1561A95451100678A6F /* movieCell.h */,
 				BD87B1571A95451100678A6F /* movieCell.m */,
 				BD87B0F71A94FFE600678A6F /* Main.storyboard */,
@@ -310,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD87B0F91A94FFE600678A6F /* Main.storyboard in Resources */,
+				BD87B1601AA552B300678A6F /* data.json in Resources */,
 				BD87B0FE1A94FFE600678A6F /* LaunchScreen.xib in Resources */,
 				BD87B0FB1A94FFE600678A6F /* Images.xcassets in Resources */,
 			);
@@ -319,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD87B1611AA552B300678A6F /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +343,7 @@
 				BD87B12A1A95036900678A6F /* AFHTTPRequestOperation.m in Sources */,
 				BD87B1491A95037A00678A6F /* UIImageView+AFNetworking.m in Sources */,
 				BD87B1151A95006100678A6F /* tableview.m in Sources */,
+				BD87B15E1AA53BA800678A6F /* detailViewController.m in Sources */,
 				BD87B12B1A95036900678A6F /* AFHTTPRequestOperationManager.m in Sources */,
 				BD87B14A1A95037A00678A6F /* UIProgressView+AFNetworking.m in Sources */,
 				BD87B12D1A95036900678A6F /* AFNetworkReachabilityManager.m in Sources */,
@@ -540,6 +552,7 @@
 				BD87B10F1A94FFE600678A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD87B1101A94FFE600678A6F /* Build configuration list for PBXNativeTarget "RottenTomatoesTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +561,7 @@
 				BD87B1121A94FFE600678A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
