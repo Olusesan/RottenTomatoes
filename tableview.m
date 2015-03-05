@@ -138,8 +138,7 @@
         NSDictionary *movie = self.Movies[self.currentTableRow];
         detailViewController *controller = (detailViewController *)segue.destinationViewController;
         controller.moviedetail = movie;
-        
-        
+        controller.ratings.text = movie[@"title"];
         
     }
 }
