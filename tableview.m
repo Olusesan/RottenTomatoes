@@ -83,7 +83,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"hello");
-//    self.currentTableRow=indexPath.row;
+    self.currentTableRow=indexPath.row;
 //    [self performSegueWithIdentifier:@"showdetail" sender:self];
 //        [self performSegueWithIdentifier:@"mike" sender:self];
         [self performSegueWithIdentifier:@"mike" sender:self];
@@ -132,11 +132,15 @@
 - (void)prepareForSegue000:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    NSDictionary *movie = self.Movies[self.currentTableRow];
-    NSLog(@"hello #2");
+    
+//    NSLog(@"hello #2");
     if ( [[segue identifier] isEqualToString:@"mike"]) {
+        NSDictionary *movie = self.Movies[self.currentTableRow];
         detailViewController *controller = (detailViewController *)segue.destinationViewController;
         controller.moviedetail = movie;
+        
+        
+        
     }
 }
 

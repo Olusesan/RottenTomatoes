@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#include "movie.h"
+//#include "movie.h"
 #import "tableview.h"
 
 @interface detailViewController : UIViewController

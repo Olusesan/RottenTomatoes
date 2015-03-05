@@ -19,10 +19,11 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor purpleColor];
    NSLog(@"%@", self.moviedetail);
-    NSString *movieratings = self.moviedetail[@"mpaa_rating"];
-    NSString *title = self.moviedetail[@"title"];
+//    NSString *movieratings = self.moviedetail[@"mpaa_rating"];
+//    NSString *title = self.moviedetail[@"title"];
     
-    self.ratings.text= self.moviedetail[@"mpaa_rating"];
+    
+    self.ratings.text= self.moviedetail[@"title"];
     
     
     
