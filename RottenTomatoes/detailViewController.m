@@ -22,14 +22,22 @@
 //    NSString *movieratings = self.moviedetail[@"mpaa_rating"];
 //    NSString *title = self.moviedetail[@"title"];
     
-    
+//    self.runtime.text = self.moviedetail[@"runtime"];
     self.ratings.text= self.moviedetail[@"mpaa_rating"];
     self.movietitle.text = self.moviedetail[@"title"];
     self.synopsiz.text = self.moviedetail[@"synopsis"];
     NSDictionary *moviez = self.moviedetail;
     NSDictionary *posterz = moviez [@"posters"];
-    NSString *posterzurlstring = posterz [@"detailed"];
+    NSString *posterzurlstring = posterz [@"profile"];
     [self.biggerposter setImageWithURL:[NSURL URLWithString:posterzurlstring]];
+//    NSMutableArray *castArray = [[NSMutableArray alloc] init];
+//    NSDictionary *abrigded_cast = self.moviedetail;
+//    for (id dict in abrigded_cast) {
+//        [castArray addObject:dict[@"name"]];
+//    }
+    
+//    self.cast = [castArray componentsJoinedByString:@","];
+    
     
     
     

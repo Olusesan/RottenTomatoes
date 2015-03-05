@@ -26,7 +26,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JVc-D4-4gc">
-                                            <rect key="frame" x="0.0" y="28" width="54" height="77"/>
+                                            <rect key="frame" x="0.0" y="28" width="51" height="81"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4k1-sb-lwK">
                                             <rect key="frame" x="62" y="29" width="305" height="87"/>
@@ -89,7 +89,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fhH-RN-y0h">
-                                <rect key="frame" x="6" y="123" width="108" height="154"/>
+                                <rect key="frame" x="6" y="123" width="102" height="162"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rated" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQW-hb-jXZ">
                                 <rect key="frame" x="122" y="123" width="52" height="21"/>
@@ -103,6 +103,18 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Runtime" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpW-9b-voT">
+                                <rect key="frame" x="122" y="152" width="67" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9H-rF-8Hw">
+                                <rect key="frame" x="220" y="157" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.39961002561854575" green="0.27157279077247232" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -111,7 +123,8 @@
                         <outlet property="biggerposter" destination="fhH-RN-y0h" id="BkO-rn-rfm"/>
                         <outlet property="movietitle" destination="g2L-zT-n0u" id="baj-qW-WBq"/>
                         <outlet property="ratings" destination="WaC-Iv-btU" id="2Xv-nZ-094"/>
-                        <outlet property="synopsiz" destination="zZD-ua-a4L" id="RsJ-fv-k3D"/>
+                        <outlet property="runtime" destination="c9H-rF-8Hw" id="VhZ-Zc-rz4"/>
+                        <outlet property="synopsiz" destination="zZD-ua-a4L" id="DcD-zS-L6x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OiT-6G-sIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
