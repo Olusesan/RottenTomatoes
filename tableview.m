@@ -129,7 +129,7 @@
 #pragma mark - Navigation
 
 //In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue000:(UIStoryboardSegue *)segue sender:(id)sender {
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     
@@ -138,7 +138,7 @@
         NSDictionary *movie = self.Movies[self.currentTableRow];
         detailViewController *controller = (detailViewController *)segue.destinationViewController;
         controller.moviedetail = movie;
-        controller.ratings.text = movie[@"title"];
+//        controller.ratings.text = movie[@"title"];
         
     }
 }

@@ -23,7 +23,15 @@
 //    NSString *title = self.moviedetail[@"title"];
     
     
-    self.ratings.text= self.moviedetail[@"title"];
+    self.ratings.text= self.moviedetail[@"mpaa_rating"];
+    self.movietitle.text = self.moviedetail[@"title"];
+    self.synopsiz.text = self.moviedetail[@"synopsis"];
+    NSDictionary *moviez = self.moviedetail;
+    NSDictionary *posterz = moviez [@"posters"];
+    NSString *posterzurlstring = posterz [@"detailed"];
+    [self.biggerposter setImageWithURL:[NSURL URLWithString:posterzurlstring]];
+    
+    
     
     
     

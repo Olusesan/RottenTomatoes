@@ -7,12 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-//#include "movie.h"
+#include "movie.h"
 #import "tableview.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface detailViewController : UIViewController
 @property (nonatomic, strong) NSDictionary *moviedetail;
 @property (weak, nonatomic) IBOutlet UILabel *ratings;
+@property (weak, nonatomic) IBOutlet UILabel *movietitle;
+@property (weak, nonatomic) IBOutlet UIImageView *biggerposter;
+@property (weak, nonatomic) IBOutlet UILabel *synopsiz;
 
 //@property (weak, nonatomic) IBOutlet UIImageView *biggerposter;
 //@property (strong, nonatomic) movie *MovieDetail;
