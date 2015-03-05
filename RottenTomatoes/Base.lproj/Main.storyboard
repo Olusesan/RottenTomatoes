@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--Tableview-->
+        <!--Top Movies in Theatre-->
         <scene sceneID="Wzy-p6-RPG">
             <objects>
                 <tableViewController id="sul-hM-dDc" customClass="tableview" sceneMemberID="viewController">
@@ -12,13 +12,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="Bap-1j-CXn">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <items>
-                                <navigationItem title="Top Movies in Theatre" id="Vis-LP-Rzq"/>
-                            </items>
-                        </navigationBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyMovieCell" rowHeight="118" id="iLT-Vy-EEH" customClass="movieCell">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -54,7 +47,7 @@
                             <outlet property="delegate" destination="sul-hM-dDc" id="yb9-sE-kaP"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="1Pf-Bz-KbB"/>
+                    <navigationItem key="navigationItem" title="Top Movies in Theatre" id="1Pf-Bz-KbB"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <segue destination="naX-6R-Km0" kind="show" identifier="mike" id="s8K-VM-AHv"/>
@@ -109,12 +102,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9H-rF-8Hw">
-                                <rect key="frame" x="220" y="157" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.39961002561854575" green="0.27157279077247232" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -123,7 +110,6 @@
                         <outlet property="biggerposter" destination="fhH-RN-y0h" id="BkO-rn-rfm"/>
                         <outlet property="movietitle" destination="g2L-zT-n0u" id="baj-qW-WBq"/>
                         <outlet property="ratings" destination="WaC-Iv-btU" id="2Xv-nZ-094"/>
-                        <outlet property="runtime" destination="c9H-rF-8Hw" id="VhZ-Zc-rz4"/>
                         <outlet property="synopsiz" destination="zZD-ua-a4L" id="DcD-zS-L6x"/>
                     </connections>
                 </viewController>
