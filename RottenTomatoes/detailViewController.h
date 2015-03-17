@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#include "movie.h"
+//#include "movie.h"
 #import "tableview.h"
 #import "UIImageView+AFNetworking.h"
 
@@ -17,10 +17,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *movietitle;
 @property (weak, nonatomic) IBOutlet UIImageView *biggerposter;
 @property (weak, nonatomic) IBOutlet UILabel *synopsiz;
-//@property (weak, nonatomic) IBOutlet UILabel *runtime;
+@property (weak, nonatomic) IBOutlet UILabel *runtime;
 
 
-//@property (weak, nonatomic) IBOutlet UILabel *cast;
+@property (weak, nonatomic) IBOutlet UILabel *cast;
 
 //@property (weak, nonatomic) IBOutlet UIImageView *biggerposter;
 //@property (strong, nonatomic) movie *MovieDetail;

@@ -8,6 +8,7 @@
 
 #import "detailViewController.h"
 
+
 @interface detailViewController ()
 
 
@@ -17,12 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor purpleColor];
+    self.view.backgroundColor=[UIColor grayColor];
    NSLog(@"%@", self.moviedetail);
 //    NSString *movieratings = self.moviedetail[@"mpaa_rating"];
 //    NSString *title = self.moviedetail[@"title"];
     
-//    self.runtime.text = self.moviedetail[@"runtime"];
+//    NSDictionary *runtimez = self.moviedetail;
+//    NSString *runtimex = runtimez[@"runtime"];
+//    self.runtime.text = runtimex;
+//    MovieDictionary *movieDictionary = [[MovieDictionary alloc] init];
+    
+    
+    NSArray *castarray = self.moviedetail[@"abridged_cast"];
+    NSArray *names = [castarray valueForKey:@"name"];
+    self.cast.text = [names componentsJoinedByString:@","];
+    
     self.ratings.text= self.moviedetail[@"mpaa_rating"];
     self.movietitle.text = self.moviedetail[@"title"];
     self.synopsiz.text = self.moviedetail[@"synopsis"];
@@ -30,11 +40,13 @@
     NSDictionary *posterz = moviez [@"posters"];
     NSString *posterzurlstring = posterz [@"profile"];
     [self.biggerposter setImageWithURL:[NSURL URLWithString:posterzurlstring]];
-//    NSMutableArray *castArray = [[NSMutableArray alloc] init];
-//    NSDictionary *abrigded_cast = self.moviedetail;
-//    for (id dict in abrigded_cast) {
-//        [castArray addObject:dict[@"name"]];
-//    }
+    
+    NSNumber *runtimeNumber = self.moviedetail[@"runtime"];
+    self.runtime.text = [NSString stringWithFormat:@"%li",(long)[runtimeNumber integerValue]];
+
+//    NSDictionary *abrigded_cast = self.moviedetail[@"abridged_cast"];
+//    NSDictionary* castname = abrigded_cast [@"name"];
+//    self.cast.text = castname [@"name"];
     
 //    self.cast = [castArray componentsJoinedByString:@","];
     
