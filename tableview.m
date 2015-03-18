@@ -29,7 +29,7 @@
             
         }
         else {
-            self.title = @"No Fucking data";
+            self.title = @"No data";
             NSLog(@"No data");
         }
     }];

@@ -117,8 +117,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZD-ua-a4L">
-                                <rect key="frame" x="6" y="360" width="362" height="245"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZD-ua-a4L">
+                                <rect key="frame" x="6" y="360" width="362" height="255"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -156,7 +156,7 @@
                             <constraint firstItem="WaC-Iv-btU" firstAttribute="top" secondItem="t2D-c1-UsL" secondAttribute="bottom" constant="46" id="2cq-sV-kvy"/>
                             <constraint firstItem="gpW-9b-voT" firstAttribute="top" secondItem="TQW-hb-jXZ" secondAttribute="bottom" constant="14" id="32i-q7-iUu"/>
                             <constraint firstItem="zZD-ua-a4L" firstAttribute="top" secondItem="amM-y3-2kz" secondAttribute="bottom" constant="23" id="38w-oz-dwM"/>
-                            <constraint firstItem="wb1-fo-WIb" firstAttribute="top" secondItem="zZD-ua-a4L" secondAttribute="bottom" constant="62" id="4ct-WT-Wop"/>
+                            <constraint firstItem="wb1-fo-WIb" firstAttribute="top" secondItem="zZD-ua-a4L" secondAttribute="bottom" constant="52" id="4ct-WT-Wop"/>
                             <constraint firstItem="fhH-RN-y0h" firstAttribute="leading" secondItem="g2L-zT-n0u" secondAttribute="leading" id="7M9-hd-ehM"/>
                             <constraint firstItem="g2L-zT-n0u" firstAttribute="leading" secondItem="5Q2-Lc-yt1" secondAttribute="leadingMargin" constant="-10" id="Grd-FM-05B"/>
                             <constraint firstItem="zZD-ua-a4L" firstAttribute="leading" secondItem="fhH-RN-y0h" secondAttribute="leading" id="J8c-Zx-KW1"/>
