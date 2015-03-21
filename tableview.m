@@ -14,6 +14,10 @@
 
 @implementation tableview
 
+//- (UIStatusBarStyle)preferredStatusBarStyle {
+//    return UIStatusBarStyleLightContent;
+//}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSString *url = @"http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?apikey=ws32mxpd653h5c8zqfvksxw9";

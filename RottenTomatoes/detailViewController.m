@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor grayColor];
+//    self.view.backgroundColor=[UIColor grayColor];
    NSLog(@"%@", self.moviedetail);
 //    NSString *movieratings = self.moviedetail[@"mpaa_rating"];
 //    NSString *title = self.moviedetail[@"title"];
@@ -42,7 +42,7 @@
     [self.biggerposter setImageWithURL:[NSURL URLWithString:posterzurlstring]];
     
     NSNumber *runtimeNumber = self.moviedetail[@"runtime"];
-    self.runtime.text = [NSString stringWithFormat:@"%li",(long)[runtimeNumber integerValue]];
+    self.runtime.text = [NSString stringWithFormat:@"%li Minutes",(long)[runtimeNumber integerValue]];
 
 //    NSDictionary *abrigded_cast = self.moviedetail[@"abridged_cast"];
 //    NSDictionary* castname = abrigded_cast [@"name"];
