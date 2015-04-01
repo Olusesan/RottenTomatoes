@@ -31,7 +31,7 @@
     
     NSArray *castarray = self.moviedetail[@"abridged_cast"];
     NSArray *names = [castarray valueForKey:@"name"];
-    self.cast.text = [names componentsJoinedByString:@","];
+    self.cast.text = [names componentsJoinedByString:@", "];
     
     self.ratings.text= self.moviedetail[@"mpaa_rating"];
     self.movietitle.text = self.moviedetail[@"title"];
